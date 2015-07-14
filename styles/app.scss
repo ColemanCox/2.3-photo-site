@@ -1,0 +1,50 @@
+$bg-color: #222;
+$text-color: lighten($bg-color, 40%);
+
+html {
+  background-color: $bg-color;
+}
+
+h3 {
+  color: white;
+  margin-left: 15%;
+}
+
+h3 span {
+  color: $text-color;
+  font-size: 20px;
+  margin-left:  0%;
+}
+
+li {
+  color: $text-color;
+  font-weight: bold;
+  border: 10px solid $bg-color;
+  margin-left: 33%;
+}
+
+img{
+  margin-top: 10%;
+  margin-left: 33%;
+  display: block;
+  font-size: 30px;
+  height: 250px;
+  width: 450px;
+}
+
+span{
+  color: red;
+}
+
+p {
+  color: $text-color;
+  font-family: cursive;
+  font-size: 25px;
+  margin-left: 33%
+}
+
+p span{
+  color: rgb(88, 21, 13);
+  margin: 10%;
+  font-size:15px;
+}
