@@ -1,50 +1,70 @@
-$bg-color: #222;
-$text-color: lighten($bg-color, 40%);
-
 html {
-  background-color: $bg-color;
+  background-color: black;
+  color: white;
 }
 
-h3 {
-  color: white;
+h2 {
   margin-left: 15%;
 }
 
-h3 span {
-  color: $text-color;
-  font-size: 20px;
-  margin-left:  0%;
+.leftcol, img, div {
+  @include span-columns (6);
+  @include shift (2);
+
+
 }
 
-li {
-  color: $text-color;
-  font-weight: bold;
-  border: 10px solid $bg-color;
-  margin-left: 33%;
+img {
+  position:relative;
+  width: 400px;
+  display:block;
+  margin-top: 15%;
 }
 
-img{
-  margin-top: 10%;
-  margin-left: 33%;
-  display: block;
-  font-size: 30px;
-  height: 250px;
-  width: 450px;
+.turngrey {
+  color: grey;
+  position: absolute;
 }
 
-span{
+.rightcol {
+  @include span-columns(3);
+
+  margin-left: 50%;
+  margin-top: -30%;
+  position:relative;
+  display:block;
+}
+
+.iso {
+  color: black;
+  background-color: grey;
+  border: 2px solid black;
+  margin-right: 1%;
+  margin-left: -9%;
+  padding: 2px;
+}
+
+.canon {
   color: red;
 }
 
-p {
-  color: $text-color;
-  font-family: cursive;
-  font-size: 25px;
-  margin-left: 33%
+
+
+.date {
+  color: white;
+  font-size: 15px;
+  margin-left: 10%;
 }
 
-p span{
-  color: rgb(88, 21, 13);
-  margin: 10%;
-  font-size:15px;
+li {
+  margin-top: 5%;
+  font-size: 20px;
+  margin-left: 15%;
+}
+
+.icon {
+  height: 25px;
+  width: 25px;
+  margin-top:-8%;
+  margin-left: -9%;
 }
