@@ -6,7 +6,8 @@
   "dependencies": {
     "bower": "^1.4.1",
     "broccoli": "^0.16.4",
-    "broccoli-merge-trees": "^0.2.1"
+    "broccoli-merge-trees": "^0.2.1",
+    "broccoli-sass": "^0.6.6"
   },
   "devDependencies": {},
   "scripts": {
