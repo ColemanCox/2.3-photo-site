@@ -9,66 +9,49 @@ h2 {
 }
 
 
-
-
-
-
-
-
-img {
-  position:relative;
-  width: 400px;
-  display:block;
-  margin-top: 15%;
-}
-
 .turngrey {
-  color: gray;
+  color: red;
   position: absolute;
 }
 
-.rightcol {
+.picture{
+  height:300px;
+  width:400px;
 
-
-  margin-left: 50%;
-  margin-top: -30%;
-  position:relative;
+}
+.leftcol{
+  margin-left: 15%;
+  margin-top: 15%;
+  position: absolute;
   display:block;
 }
 
-.iso {
-  color: black;
-  background-color: grey;
-  border: 2px solid black;
-  margin-right: 1%;
-   margin-top:10%;
-  padding: 2px;
+.unordlis{
+  display:block;
+}
+
+.icon{
+  height:15px;
+  width:15px;
+
+}
+.date{
+  color:gray;
+  margin-left:45%;
 }
 
 .canon {
   color: red;
 }
 
+.cameraType{
+  text-align:center;
+  display:block;
+  margin-left: 20%;
+  position: relative;
 
-
-.date {
-  color: white;
-  font-size: 15px;
-  margin-left: 10%;
 }
-
-li {
-  margin-top: 5%;
-  font-size: 20px;
-  margin-left: 35%;
+.right li{
 
 }
 
-.icon {
-  height: 25px;
-  width: 25px;
-  margin-top:-3%;
-  margin-left:-4%;
-
-
-}
