@@ -1,0 +1,50 @@
+html {
+  background-color: black;
+  color: white; }
+
+h2 {
+  color: gray;
+  margin-left: 15%; }
+
+img {
+  position: relative;
+  width: 400px;
+  display: block;
+  margin-top: 15%; }
+
+.turngrey {
+  color: gray;
+  position: absolute; }
+
+.rightcol {
+  margin-left: 50%;
+  margin-top: -30%;
+  position: relative;
+  display: block; }
+
+.iso {
+  color: black;
+  background-color: grey;
+  border: 2px solid black;
+  margin-right: 1%;
+  margin-top: 10%;
+  padding: 2px; }
+
+.canon {
+  color: red; }
+
+.date {
+  color: white;
+  font-size: 15px;
+  margin-left: 10%; }
+
+li {
+  margin-top: 5%;
+  font-size: 20px;
+  margin-left: 35%; }
+
+.icon {
+  height: 25px;
+  width: 25px;
+  margin-top: -3%;
+  margin-left: -4%; }

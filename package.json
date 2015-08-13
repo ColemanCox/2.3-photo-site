@@ -1,17 +1,26 @@
 {
   "name": "2.3-photo",
   "version": "1.0.0",
-  "description": "",
   "main": "Brocfile.js",
   "dependencies": {
     "bower": "^1.4.1",
     "broccoli": "^0.16.4",
-    "broccoli-merge-trees": "^0.2.1"
+    "broccoli-merge-trees": "^0.2.2",
+    "broccoli-sass": "^0.6.6"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ColemanCox/2.3-photo-site.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ColemanCox/2.3-photo-site/issues"
+  },
+  "homepage": "https://github.com/ColemanCox/2.3-photo-site#readme",
+  "description": ""
 }
